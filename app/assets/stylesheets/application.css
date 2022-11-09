@@ -26,12 +26,8 @@ body {
   font-family: verdana, arial, helvetica, sans-serif;
 }
 
-p {
+p, ul {
   margin: 33px;
-}
-
-label {
-  display: block;
 }
 
 h1 {
@@ -65,5 +61,21 @@ a:visited {
 }
 
 #notice {
-    color: green;
+  color: green;
+}
+
+.error-info {
+  color: red;
+  border: 1px solid red;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.error-info ul {
+  padding-left: 30px;
+}
+
+.error-item {
+  background-color: red;
+  padding: 2px;
 }
